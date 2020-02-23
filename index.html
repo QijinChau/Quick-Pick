@@ -90,8 +90,10 @@
 				alert("4 matches + luckyball.\n1/143,355 chance.\nYou won $4000!");
 			if(matches == 5 && lucky == numLucky)
 				alert("5 matches + luckyball.\n1/30,821,472 chance.\nYou won $7000 a WEEK for LIFE!");
+			if(matches == 1 && lucky != numLucky)
+				alert("1 match, no luckyball.\nSorry you didn't win :(");
 			if(matches == 0 && lucky != numLucky)
-				alert("0 matches, no luckyball.\nSorry you didn't win :(");	
+				alert("0 matches, no luckyball.\nSorry you didn't win :(");
 		}
 
 		// gets number of matches for numbers excluding lucky ball
