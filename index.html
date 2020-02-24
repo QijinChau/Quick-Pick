@@ -27,7 +27,11 @@
 		document.write("Unsorted array:");
 	    	document.write("<br>");
 		for (var i = 0; i < 6; i++) {
+			if(i == 5) {
+				document.write("Lucky ball: ");
+			}
 			document.write(arr[i]);
+			
 			if(i < 5)
 				document.write(", ");
 		}
@@ -48,8 +52,12 @@
 	    document.write("Sorted array:");
 	    document.write("<br>");
 	    for (var i = 0; i < 6; i++) {
+		    	if(i == 5) {
+				document.write("Lucky ball: ");
+			}
 			document.write(arr[i]);
-			if(i < 5)
+			
+		    	if(i < 5)
 				document.write(", ");
 		}
 		document.write("<br> <br>" );
